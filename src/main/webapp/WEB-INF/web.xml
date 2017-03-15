@@ -1,0 +1,27 @@
+
+<web-app
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+        version="2.5">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>players</servlet-name>
+        <servlet-class>ua.nure.controller.MainController</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>players</servlet-name>
+        <url-pattern>/players</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>validator</filter-name>
+        <filter-class>ua.nure.filter.ValidationFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>validator</filter-name>
+        <servlet-name>players</servlet-name>
+    </filter-mapping>
+</web-app>

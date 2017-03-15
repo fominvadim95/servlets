@@ -1,0 +1,91 @@
+body {
+    background-color: #E0EEE0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+label {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+/* X (cross) in modal window */
+.close {
+    text-align: right;
+}
+
+#save {
+    width: 100px;
+    margin-left: 165px;
+}
+
+#add {
+    margin-right: 110px;
+}
+
+form {
+    margin-left: 30px;
+}
+
+button {
+    width: 130px;
+}
+
+input[type="text"], input[type="number"], #position {
+    width: 20%;
+}
+
+table {
+    border: 3px solid black;
+    text-align: left;
+}
+
+th {
+    background-color: #FDF5E6;
+}
+
+td, th {
+    border-left: 2px solid black;
+}
+
+/* footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    right: 5%;
+    left: 5%;
+    position: absolute;
+    bottom: 0;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
